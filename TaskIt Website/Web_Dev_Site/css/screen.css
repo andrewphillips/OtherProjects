@@ -1,0 +1,394 @@
+/*
+		Cafe Vincze CSS
+		Version: 1.0
+		Last Revision: Sunday, 17 April, 2011
+		
+		------Color Pallette----------
+		Mustard Yellow - #CA9E3F
+		Tomato Red - #a30000
+		Vine Green - #3b6517
+		Forest Green - #334b1a
+		Mint Green - #8cb84d
+		Stove Grey - #362f2d
+		Stone Grey - #b9ae9e
+		Wood Brown - #603819
+*/
+
+/*-----------Document------------------*/
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	background-color: #ca9e3f;
+	margin: 0;
+}
+
+/*------------Typography----------------*/
+h1 {
+	color: #a30000;
+}
+
+h2 {
+	color: #3b6517;
+}
+	
+h3 {
+	color: #8cb84d;
+}
+	
+h4 {
+	color: #603819;
+}
+
+dt {
+	font-weight: bold;
+}
+
+/*-----------Global Navigation-------------*/
+#nav {
+	list-style: none;
+	padding: 0 0 0 120px;
+	margin: 185px auto 0 auto;
+	overflow: auto;
+}
+
+#nav li {
+	float: left;
+	text-align: center;
+	width: 150px;
+}
+
+#nav li a {
+	background-image: url(../images/nav_bg.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	display: block;
+	text-indent: -9999px;
+}
+
+#nav #home a {
+	background-position: 0 0;
+}
+
+#nav #home a:hover {
+	background-position: 0 -53px;
+}
+
+#nav #menu a {
+	background-position: -150px 0;
+}
+
+#nav #menu a:hover {
+	background-position: -150px -53px;
+}
+
+#nav #location a {
+	background-position: -300px 0;
+}
+
+#nav #location a:hover {
+	background-position: -300px -53px;
+}
+
+#nav #contact a {
+	background-position: -450px 0;
+}
+
+#nav #contact a:hover {
+	background-position: -450px -53px;
+}
+
+#nav #gallery a {
+	background-position: -600px 0;
+}
+
+#nav #gallery a:hover {
+	background-position: -600px -53px;
+}
+
+/*----------Image Replacement----------------*/
+#welcome_heading {
+	background-image: url(../images/background_images/welcome-h2.jpg);
+	background-repeat: no-repeat;
+	width: 420px;
+	height: 44px;
+	text-indent: -9999px;
+}
+
+#menu_heading {
+	background-image: url(../images/background_images/menu-h2.jpg);
+	background-repeat: no-repeat;
+	width: 248px;
+	height: 44px;
+	text-indent: -9999px;
+}
+
+#location_heading {
+	background-image: url(../images/background_images/location-h2.jpg);
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 44px;
+	text-indent: -9999px;
+}
+
+
+#contact_heading {
+	background-image: url(../images/background_images/contact-h2.jpg);
+	background-repeat: no-repeat;
+	width: 194px;
+	height: 44px;
+	text-indent: -9999px;
+}
+
+#hours {
+	background-image: url(../images/background_images/hours.jpg);
+	background-repeat: no-repeat;
+	width: 95px;
+	height: 34px;
+	padding: 50px;
+	text-indent: -9999px;
+	float: right;
+}
+
+#gallery_heading {
+	background-image: url(../images/background_images/gallery-h2.jpg);
+	background-repeat: no-repeat;
+	width: 277px;
+	height: 44px;
+	text-indent: -9999px;
+}
+
+/*--------Layout-----------*/
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url(../images/wrapper_bg.png);
+	background-repeat: repeat-y;
+}
+
+#header {
+	background-image: url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 280px;
+}
+
+#header h1 {
+	margin: 0;
+	text-indent: -9999px;
+}
+
+#main_content {
+	margin: 0 25px 0 75px;
+}
+
+#footer {
+	background-image: url(../images/footer_bg.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	margin: 0 0 70px 0;
+	clear: both;
+}
+
+#footer p {
+	color: #603819;
+	font-size: 10px;
+	padding-top: 85px;
+	text-align: center;
+}
+
+/*----------Home Page-----------*/
+#welcome_content {
+	width: 535px;
+	float: left;
+	
+}
+
+#welcome_content img {
+	border: 1px solid #b9ae9e;
+	display: block;
+	margin: 0 auto;
+	width: 380px;
+}
+
+#sidebar {
+	width: 270px;
+	float: right;
+	margin: 10px 65px 0 0;
+}
+
+#sidebar h4 {
+	background-image: url(../images/sidebar_top_bg.png);
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 87px;
+	margin: 0;
+	text-indent: -9999px;
+}
+
+#sidebar dl {
+	background-image: url(../images/sidebar_mid_bg.png);
+	background-repeat: repeat-y;
+	margin: 0;
+	color: #fff;
+	padding: 30px 30px 0 30px;
+}
+
+#sidebar dt {
+	border-top: 1px solid #334b1a;
+	padding-top: 20px;
+}
+
+#sidebar dd {
+	margin: 0;
+}
+
+#sidebar .featured_price {
+	color: #ca9e3f;
+	font-style: italic;
+	padding: 15px 0;
+}
+
+#sidebar p {
+	background-image: url(../images/sidebar_bottom_bg.png);
+	background-repeat: no-repeat;
+	width: 270px;
+	margin: 0;
+	height: 90px;
+	text-align: center;
+}
+
+#sidebar a:link {
+	color: #fff;
+}
+
+#sidebar a:visited {
+	color: #fff;
+}
+
+#sidebar a:hover {
+	color: #ca9e3f;
+}
+
+#sidebar a:active {
+	color: #ca9e3f;
+}
+
+
+
+/*---------------Menu Page------------*/
+.menu_content {
+	width: 350px;
+	text-align: center;
+	margin: 15px 40px 0 15px;
+	float: left;
+}
+
+.menu_content dd {
+	margin: 0;
+}
+
+.menu_content .menu_price {
+	font-style: italic;
+	margin: 15px 0 45px 0;
+}
+
+/*------Location Page-------*/
+#location_content {
+	width: 400px;
+	float: left;
+	
+}
+
+#location_content h3 {
+	margin-top: 25px;
+}
+
+#map {
+	width: 375px;
+	float: left;
+	margin: 75px 0 50px 35px;
+}
+
+#map img {
+	border: 1px solid #b9ae9e;
+}
+
+/*-------------Contact Page------------------*/
+table {
+	text-indent: 20px;
+	border-collapse: collapse;
+	font-size: 14px;
+	margin: 50px;
+	padding: 20px;
+	float: right;
+}
+
+th, td {
+	border: 2px solid #fff9e6;
+	padding: 0 3px 3px 0;
+	width: 150px;
+	height: 30px;
+}
+
+th {
+	font-weight: normal;
+	text-align: left;
+}
+
+tr {
+	background-color: #e5e0ce;
+}
+
+.alternate {
+	background-color: #ccc7b7;
+}
+
+form {
+	width: 200px;
+	float: left;
+}
+
+form dt {
+	margin: 2px;
+	font-weight: normal;
+}
+
+form ul {
+	list-style: none;	
+}
+
+/*--------Gallery Pgae-------*/
+#gallery_photos {
+	list-style: none;
+}
+
+#gallery_photos img {
+	border: none;
+}
+
+#gallery_photos li {
+	margin: 0 27px 27px 0;
+	float: left;
+}
+
+#gallery_photos li a {
+	display: block;
+	width: 99px;
+	height: 99px;
+}
+
+#gallery_photos li a:link {
+	border: 3px solid #b9ae9e;
+}
+
+#gallery_photos li a:hover {
+	border: 3px solid #a30000;
+}
+
+#gallery_photos li a:active {
+	border: 3px solid #a30000;
+}
+
+
+

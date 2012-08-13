@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Contact | Caf&eacute; Vincze</title>
+		<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Caf&eacute; Vincze</h1>
+				<ul id="nav">
+					<li id="home"><a href="index.html">Home</a></li>
+					<li id="menu"><a href="menu.html">Menu</a></li>
+					<li id="location"><a href="location.html">Location</a></li>
+					<li id="contact"><a href="contact.html">Contact</a></li>
+					<li id="gallery"><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</div><!-- closes the #header .div -->
+			<div id="main_content">
+				<h2 id="contact_heading">Contact</h2>
+				<form action="mailto:atphillips@outlook.com" method="post">
+					<dl>
+						<dt>First Name</dt>
+						<dd>
+							<input type="text" name="name-first" size="35" />
+						</dd>
+						<dt>Last Name:</dt>
+						<dd>
+							<input type="text" name="name-last" size="35" />
+						</dd>
+						<dt>Email:</dt>
+						<dd>
+							<input type="text" name="email" size="35" />
+						</dd>
+						<dt>Phone:</dt>
+						<dd>
+							<input type="text" name="phone" size="35" />Ex: 407-679-0100
+						</dd>
+					</dl>
+					
+					<p>How may I contact you?</p>
+					<ul>
+						<li><input type="radio" name="By email" value="18-24" checked="checked" />By Email</li>
+						<li><input type="radio" name="By Phone" value="25-29" />By Phone</li>
+					</ul>
+					
+					<p>Reason For Message:</p>
+					<ul>
+						<li><input type="radio" name="Question" value="18-24" checked="checked" />Question</li>
+						<li><input type="radio" name="Comment" value="25-29" />Comment</li>
+						<li><input type="radio" name="Complaint" value="25-29" />Complaint</li>
+					</ul>
+					
+					<dl>
+						<dt>Message</dt>
+						<dd>
+							<textarea rows="5" cols="35" name="comments"></textarea>
+						</dd>
+					</dl>
+					<div id="contact_btns">
+						<input type="submit" value="Send" /> <input type="reset" value="Clear Form" />
+					</div><!-- closes the #contact_btns div. -->
+				</form>
+				<h2 id="hours">Hours</h2>
+					<table summary="Hours of Operation">
+						<tr>
+							<th>Monday</th><td>11:00 AM - 9:00PM</td>
+						</tr>
+						
+						<tr class="alternate">
+							<th>Tuesday</th><td>11:00 AM - 9:00PM</td>
+						</tr>
+						
+						<tr>
+							<th>Wednesday</th><td>11:00 AM - 9:00PM</td>
+						</tr>
+						
+						<tr class="alternate">
+							<th>Thursday</th><td>11:00 AM - 9:00PM</td>
+						</tr>
+						
+						<tr>
+							<th>Friday</th><td>11:00 AM - 11:00PM</td>
+						</tr>
+						
+						<tr class="alternate">
+							<th>Saturday</th><td>10:00 AM - 11:00PM</td>
+						</tr>
+						
+						<tr>
+							<th>Sunday</th><td>10:00 AM - 9:00PM</td>
+						</tr>
+					</table>
+			</div><!-- closes the #main_content .div -->
+			<div id="footer">
+				<p>Developed for usage within the WDDBS curriculum. Copyright &copy; Full Sail University</p>
+			</div><!-- closes the #footer .div -->
+		</div><!-- closes the #wrapper .div -->
+	</body>
+</html>
