@@ -159,10 +159,19 @@ body {
 	font-family: 'DroidSans.ttf', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
-	background: url('../img/background_main.png') no-repeat;
+	background: url('../img/page1.png') no-repeat;
 	margin: 0;
 }	
 
+logo {
+	display:block;
+	width:413px;
+	height:200px;
+	background: #ffffff;
+	border-radius:5px;
+	margin: auto;
+
+}
 
 a {
   color: #0088cc;
@@ -737,7 +746,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 27px;
-  font-size: 19.5px;
+  font-size: 26px;
   line-height: 36px;
   color: #333333;
   border: 0;
@@ -1460,8 +1469,25 @@ select:focus:required:invalid:focus {
   margin-left: 0;
 }
 
+.form-horizontal{
+	  padding: 60px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.controls p{
+	font-size: 12px;
+}
+
 .control-group {
   margin-bottom: 9px;
+}
+
+.control-label {
+	font-size: 16px;
 }
 
 legend + .control-group {
@@ -4941,7 +4967,7 @@ a.badge:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -4995,3 +5021,14 @@ a.badge:hover {
     font-weight: normal;
     font-style: normal;
 }
+
+#getStarted_content {
+			background: white;
+		border-radius: 20px;
+		padding: 10px 20px 20px 20px;
+		display: block;
+		width: auto;
+		margin: auto;
+
+}
+
