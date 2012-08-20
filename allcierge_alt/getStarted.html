@@ -1,52 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <style>
-      /* RESET */
-    html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a,
-    font, img, dl, dt, dd, ol, ul, li, legend, table, tbody, tr, th, td 
-    {margin:0px;padding:0px;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;list-style:none;}
-    a img {border: none;}
-    ol li {list-style: decimal outside;}
-    fieldset {border:0;padding:0;}
-    
-    body { font-family: sans-serif; font-size: 1em; }
-    
-    div#container { width: 780px; margin: 0 auto; padding: 1em 0;  }
-    p { margin: 1em 0; max-width: 700px; }
-    h1 + p { margin-top: 0; }
-    
-    h1, h2 { font-family: Georgia, Times, serif; }
-    h1 { font-size: 2em; margin-bottom: .75em; }
-    h2 { font-size: 1.5em; margin: 2.5em 0 .5em; border-bottom: 1px solid #999; padding-bottom: 5px; }
-    h3 { font-weight: bold; }
-    
-    ul li { list-style: disc; margin-left: 1em; }
-    ol li { margin-left: 1.25em; }
-    
-    div.side-by-side { width: 100%; margin-bottom: 1em; }
-    div.side-by-side > div { float: left; width: 50%; }
-    div.side-by-side > div > em { margin-bottom: 10px; display: block; }
-    
-    a { color: orange; text-decoration: underline; }
-    
-    .faqs em { display: block; }
-    
-    .clearfix:after {
-      content: "\0020";
-      display: block;
-      height: 0;
-      clear: both;
-      overflow: hidden;
-      visibility: hidden;
-    }
-    
-    footer {
-      margin-top: 2em;
-      border-top: 1px solid #666;
-      padding-top: 5px;
-    }
-</style>
     <meta charset="utf-8">
     <title>Allcierge - simplifying your life, one task at a time.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,7 +16,6 @@
       }
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="assets/css/enhanced.css" rel="stylesheet">
     <link href="assets/css/ui.daterangepicker.css" rel="stylesheet">
     <link href="assets/chosen/chosen.css" rel="stylesheet">
 
@@ -151,7 +104,7 @@
 		      </div>
 		    </div>    -->
 		    
-    <h2>How can we help?</h2>
+    <legend>What do you need?</legend>
     <div class="side-by-side clearfix">
       <div>
         <em>Tap the empty space to add a new task; Tap the X to delete one.</em>
@@ -180,53 +133,68 @@
             <option>Care Packages (College, Summer Camp)</option>
             <option>Gourmet Gift Baskets</option>
             <option>Holiday Shopping</option>
+            <option>Hostess Gifts</option>
+            <option>One-of-a-Kind Experiences</option>
+            <option>Wrapping, Shipping/Delivery</option>
+            <option>Research (Difficult To Find Items)</option>
+            <option>Write Thank You Notes</option>
+          </optgroup>
+          <optgroup label="Entertianment, Reservations, Tickets, & Travel">
+            <option>Airline Transportation</option>
+            <option>Book Recreational Classes</option>
+            <option>Dining Recommendations & Reservations</option>
+            <option>Event Tickets (Concert, Opera, Sporting, Theatre)</option>
+            <option>Family Entertainment (Museums, Shows, Amusement Parks, Seasonal Activities)</option>
+            <option>House Checks (Alternate Lighting, Pick-up Mail, Water Plants, Restock Fridge)</option>
+            <option>Hotel Accommodations</option>
+            <option>Research/Book a Cruise with our #1 Trusted Vendor – Strictly Vacations</option>
+            <option>Research/Book a Dude Ranch Family Vacation</option>
+            <option>Spa Appointments</option>
+            <option>Winter Activities</option>
+          </optgroup>
+          <optgroup label="Organizing Home & Office">
+            <option>Organizing Help</option>
+            <option>Filing Systems</option>
+            <option>Household Inventory/Photography (Insurance Purposes)</option>
+            <option>Closet Organization</option>
+            <option>De-Cluttering</option>
+            <option>Pantry Makeovers</option>
+            <option>Set-Up Incoming Mail Center</option>
+          </optgroup>
+          <optgroup label="Personal Executive Assistant">
+            <option>Appointment Setting</option>
+            <option>Banking</option>
+            <option>Bill Preparation</option>
+            <option>Conference/Meeting Planning</option>
+            <option>Copying/Faxing/Printing</option>
+            <option>Corporate Entertaining/Outings/Team Building</option>
+            <option>Forget Me Not – Reminder Service</option>
+            <option>Holiday Card Distribution</option>
+            <option>Mailings (Addressing, Stamping, Sealing)</option>
+            <option>Thank You Notes</option>
+            <option>Shopping</option>
+            <option>Gourmet Gift Baskets</option>
+            <option>Grocery Shopping</option>
+            <option>Hard To Find Items</option>
+            <option>Holiday Gifts</option>
+            <option>Specialty Foods</option>
+            <option>Wine & Spirits</option>
+          </optgroup>
+          <optgroup label="Vehicle Maintenance">
+            <option>Car Wash</option>
+            <option>Detailing</option>
+            <option>Fueling</option>
+            <option>Oil Changes</option>
+            <option>Rental Car Arrangements</option>
+            <option>Repairs</option>
+            <option>Tire Rotation</option>
+          </optgroup>
+          <optgroup label="Waiting Service">
+            <option>Appliance Repairs</option>
+            <option>Furniture Delivery</option>
+            <option>Package Acceptance</option>
+            <option>Utility Hook-Ups</option>
             <option></option>
-            <option></option>
-            <option></option>
-            <option></option>
-            <option></option>
-          </optgroup>
-          <optgroup label="NFC NORTH">
-            <option>Chicago Bears</option>
-            <option>Detroit Lions</option>
-            <option>Green Bay Packers</option>
-            <option>Minnesota Vikings</option>
-          </optgroup>
-          <optgroup label="NFC SOUTH">
-            <option>Atlanta Falcons</option>
-            <option>Carolina Panthers</option>
-            <option>New Orleans Saints</option>
-            <option>Tampa Bay Buccaneers</option>
-          </optgroup>
-          <optgroup label="NFC WEST">
-            <option>Arizona Cardinals</option>
-            <option>St. Louis Rams</option>
-            <option>San Francisco 49ers</option>
-            <option>Seattle Seahawks</option>
-          </optgroup>
-          <optgroup label="AFC EAST">
-            <option>Buffalo Bills</option>
-            <option>Miami Dolphins</option>
-            <option>New England Patriots</option>
-            <option>New York Jets</option>
-          </optgroup>
-          <optgroup label="AFC NORTH">
-            <option>Baltimore Ravens</option>
-            <option>Cincinnati Bengals</option>
-            <option>Cleveland Browns</option>
-            <option>Pittsburgh Steelers</option>
-          </optgroup>
-          <optgroup label="AFC SOUTH">
-            <option>Houston Texans</option>
-            <option>Indianapolis Colts</option>
-            <option>Jacksonville Jaguars</option>
-            <option>Tennessee Titans</option>
-          </optgroup>
-          <optgroup label="AFC WEST">
-            <option>Denver Broncos</option>
-            <option>Kansas City Chiefs</option>
-            <option>Oakland Raiders</option>
-            <option>San Diego Chargers</option>
           </optgroup>
         </select>
       </div>
