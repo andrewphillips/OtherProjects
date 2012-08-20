@@ -157,7 +157,7 @@ textarea {
 
 body {
 	font-family: 'DroidSans.ttf', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 1.4;
 	background: url('../img/page1.png') no-repeat;
 	margin: 0;
@@ -166,7 +166,7 @@ body {
 logo {
 	display:block;
 	width:413px;
-	height:200px;
+	height:20px;
 	background: #ffffff;
 	border-radius:5px;
 	margin: auto;
