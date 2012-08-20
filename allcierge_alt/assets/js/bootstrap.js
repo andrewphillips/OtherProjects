@@ -17,6 +17,9 @@
  * limitations under the License.
  * ========================================================== */
 
+/* Call the cakefile for Chosen */
+$(".chzn-select").chosen();
+/* ===== end cakefile === */
 
 !function ($) {
 
