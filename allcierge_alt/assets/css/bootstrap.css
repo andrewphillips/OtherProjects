@@ -732,7 +732,7 @@ pre code {
 }
 
 form {
-  margin: 0 0 18px;
+  margin: 0 0 170px;
 }
 
 fieldset {
@@ -939,7 +939,7 @@ input[type="checkbox"]:focus {
 
 .controls > .radio:first-child,
 .controls > .checkbox:first-child {
-  padding-top: 5px;
+  padding-top: 50px;
 }
 
 .radio.inline,
@@ -1484,7 +1484,7 @@ select:focus:required:invalid:focus {
 
 .control-group {
   margin-bottom: 9px;
-	width: auto;
+	width: 98%;
 	position: relative;
 }
 
@@ -2514,8 +2514,8 @@ table .span24 {
 
 .well {
   min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
+  padding: 2px;
+  margin-bottom: 2px;
   background-color: #f5f5f5;
   border: 1px solid #eee;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -4140,7 +4140,7 @@ input[type="submit"].btn.btn-mini {
 
 .pager a:hover {
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .pager .next a {
@@ -4969,7 +4969,7 @@ a.badge:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #ffffff;
+  background-color: #f5f5f5;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
