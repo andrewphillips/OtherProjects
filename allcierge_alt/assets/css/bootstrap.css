@@ -3791,11 +3791,12 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: auto;
 }
 
 .navbar-fixed-top {
   top: 0;
+  width: auto;
 }
 
 .navbar-fixed-bottom {
