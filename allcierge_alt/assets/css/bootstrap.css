@@ -147,7 +147,7 @@ textarea {
 
 .input-block-level {
   display: block;
-  width: 100%;
+  width: auto;
   min-height: 28px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -956,11 +956,11 @@ input[type="checkbox"]:focus {
 }
 
 .input-mini {
-  width: 60px;
+  width: 15px;
 }
 
 .input-small {
-  width: 90px;
+  width: 80px;
 }
 
 .input-medium {
@@ -1051,7 +1051,7 @@ textarea.span6,
 input.span5,
 textarea.span5,
 .uneditable-input.span5 {
-  width: 370px;
+  width: 300px;
 }
 
 input.span4,
@@ -1484,6 +1484,8 @@ select:focus:required:invalid:focus {
 
 .control-group {
   margin-bottom: 9px;
+	width: auto;
+	position: relative;
 }
 
 .control-label {
@@ -1512,7 +1514,7 @@ legend + .control-group {
 
 .form-horizontal .control-label {
   float: left;
-  width: 140px;
+  width: auto;
   padding-top: 5px;
   text-align: right;
 }
