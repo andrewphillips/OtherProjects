@@ -1486,7 +1486,7 @@ select:focus:required:invalid:focus {
 .control-group {
   margin-bottom: 9px;
   padding: 5px 0 0 10px;
-	width: 150px;
+	width: auto;
 	position: relative;
 }
 
