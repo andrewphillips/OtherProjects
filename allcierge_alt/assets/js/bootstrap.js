@@ -394,6 +394,7 @@ $(".chzn-select").chosen();
 
   $.fn.carousel.defaults = {
     interval: 2000
+  , pause: 'hover'
   }
 
   $.fn.carousel.Constructor = Carousel
