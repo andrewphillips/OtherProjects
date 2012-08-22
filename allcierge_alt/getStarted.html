@@ -20,7 +20,8 @@
     <link href="assets/chosen/chosen.css" rel="stylesheet">
     <link href="assets/css/demo.css" rel="stylesheet">
     <link type="text/css" href="assets/css/jquery-ui-1.8.23.custom.css" rel="Stylesheet" />
-     <style type="text/css" media="all">@import "assets/css/timePicker.css"</style>
+     <link href="https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/jquery-ui-timepicker-addon.css" rel="stylesheet">
+     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css" rel="stylesheet">
 
 
 
@@ -207,14 +208,12 @@
 
             <!-- Datepicker -->
             <h2 class="demoHeaders">Datepicker</h2>
-            <div id="datepicker"><input type="text" name="date" id="date" /></div>
+            <div id="datepicker"><input type="text" name="date" id="date" value="" /></div>
+     
             <!--end datepicker-->
 
 <!-- Time Picker -->
-	<div id="timepicker">
-		<input type="text" id="time2" size="10" value="12:00PM" autocomplete="OFF">
-	</div>
-	
+
 <!-- Details Box -->
 		    
 
@@ -252,23 +251,14 @@
     <script type="text/javascript" src="assets/chosen/chosen.jquery.js"></script>
 	<script type="text/javascript"> $(".chzn-select").chosen(); $(".chzn-select-deselect").chosen({allow_single_deselect:true}); </script>
 	
+	
         <!--daterangepicker-->
 	<script type="text/javascript" src="assets/js/jquery-1.4.4.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery-ui-1.8.23.custom.min.js"></script>
 	<script type="text/javascript">$('#date').datepicker();</script>
 	
-	<!-- timepicker 
-	<script type="text/javascript" src="jquery.timePicker.js"></script>
-	  <script type="text/javascript">
-    $("#time2").timePicker({
-  startTime: "12:00",  // Using string. Can take string or Date object.
-  endTime: new Date(0, 0, 0, 15, 30, 0),  // Using Date object.
-  show24Hours: false,
-  separator:'.',
-  step: 15});
- </script>
--->
-
+	<!-- Timepicker -->
+	<script type="text/javascript" href="https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/jquery-ui-timepicker-addon.js"></script>
 
 
 
