@@ -48,7 +48,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="index.html">Allcierge :: </a>
+          <a class="brand" href="index.html"><img src="assets/img/allcierge_logo_mini.png"></a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="index.html">Home</a></li>
@@ -62,7 +62,7 @@
     <div class="container">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-		<form class="well">
+		<form class="well"  method="post" action="mailto:atphillips@outlook.com?subject=Mail from Allcierge">
 		  <fieldset>
 		    <legend>Tell us who you are!</legend>
 		    <div class="control-group">
@@ -108,7 +108,7 @@
     <legend>What do you need?</legend>
     <div class="side-by-side clearfix">
       <div>
-        <select data-placeholder="Scroll or Type here to add a new task." style="padding: 0 10px 0 10px; width: 98%" class="chzn-select" multiple tabindex="6">
+        <select id="task_selection" data-placeholder="Scroll or Type here to add a new task." style="padding: 0 10px 0 10px; width: 98%" class="chzn-select" multiple tabindex="6">
           <option value=""></option>
           <optgroup label="General Errands">
             <option>Balloon/Flower Delivery</option>
@@ -209,22 +209,27 @@
 
 <!-- Time Picker -->
             
-                <div class="input-append bootstrap-timepicker-component">
+                <div class="input-append bootstrap-timepicker-component">	
                     <input class="input-small timepicker-default" type="text"/><span class="add-on"><i class="icon-time"></i></span>
                 </div>
           
 <!-- Details Box -->
 		<div class="details-box"><textarea rows="4" placeholder="Tell us a little bit about your errand."></textarea></div>
+		
+		<!-- Submit Clear buttons -->
+				  <button type="submit" class="btn-large btn-primary" value="Submit">Submit</button>
+				  <button type="reset" class="btn-large" value="Clear" >Clear</button>
 
-		  </fieldset>
+
+		  </fieldset>	 
 		</form>
+
       <br />
       
 
       <footer>
         <p>&copy; Allcierge | 2012</p>
       </footer>
-
     </div> <!-- /container -->
 
 
@@ -234,18 +239,8 @@
     <!-- Placed at the end of the document so the pages load faster -->   
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-alert.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-dropdown.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-scrollspy.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-tab.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-popover.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-button.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-carousel.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-typeahead.js"></script>
     
     <!-- Chosen JS files -->
     <script type="text/javascript" src="assets/chosen/chosen.jquery.js"></script>
